@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/obj/Debug/net8.0/scopedcss/projectbundle/Server-Side.bundle.scp.css",
+      "PackagePath": "staticwebassets/Server-Side.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/sahilrai/Developer/ServerSide/wwwroot/students.csv",
+      "PackagePath": "staticwebassets/students.csv"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Server-Side.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Server-Side.props",
+      "PackagePath": "build\\Server-Side.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Server-Side.props",
+      "PackagePath": "buildMultiTargeting\\Server-Side.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Server-Side.props",
+      "PackagePath": "buildTransitive\\Server-Side.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

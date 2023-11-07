@@ -1,0 +1,36 @@
+@page "/countstudentbyschool"
+@using ServerSide.Data
+@using ServerSide
+@inject StudentService studentService
+<h1>Students</h1>
+
+@if (count == null) {
+  <p><em>Loading...</em></p>
+} else {
+  <table class='table table-hover'>
+    <thead>
+      <tr>
+        <th>School</th>
+        <th>Student Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var item in count)
+      {
+        <tr>
+          <td>@item.School</td>
+          <td>@item.StudentCount</td>
+        </tr>
+        }
+    </tbody>
+  </table>
+}
+
+@code {
+    List<ServerSide.Models.SchoolStudentCount>? count;
+
+  protected override async Task OnInitializedAsync() {
+    count = await studentService.GetStudentCountsBySchoolAsync();
+  }
+
+}
